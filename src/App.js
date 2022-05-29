@@ -1,8 +1,7 @@
-import logo from './logo.svg';
 import './App.css';
 
 function MyComponent() {
-  return <>Hi</>
+  return <>Hello all!</>
 }
 
 function App() {
