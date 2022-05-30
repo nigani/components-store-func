@@ -1,3 +1,5 @@
+import PropTypes from 'prop-types'
+
 function ShopItemFunc(props) {
   const {item} = props;
 
@@ -17,6 +19,10 @@ function ShopItemFunc(props) {
       </div>
     </div>
   );
+}
+
+ShopItemFunc.propTypes = {
+  item: PropTypes.object
 }
 
 export default ShopItemFunc;
